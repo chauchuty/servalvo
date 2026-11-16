@@ -14,3 +14,7 @@ npm run preview
 ```
 
 Os dados do painel são demonstrativos e mantidos apenas na memória. O catálogo contém exemplos interativos e um inventário de componentes planejados; os itens marcados como referência ainda não são componentes implementados. O service worker é ativado no build de produção e mantém recursos visitados em cache para uso offline limitado. Um servidor de produção deve encaminhar rotas da aplicação para `index.html`.
+
+## Visualização no navegador
+
+Inicie com `npm run dev` e abra o endereço exibido pelo Vite em um navegador de desktop. A rota `/desktop` exibe o painel responsivo e `/docs/system-ui` exibe o catálogo de componentes. Em telas largas, a navegação aparece na barra lateral.
